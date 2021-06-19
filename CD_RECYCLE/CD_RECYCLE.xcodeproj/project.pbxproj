@@ -33,15 +33,17 @@
 		38A9C3E72643A91F00576AA6 /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3B92643A91F00576AA6 /* NamedView.swift */; };
 		38A9C3E82643A91F00576AA6 /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3BA2643A91F00576AA6 /* ParsingState.swift */; };
 		38A9C3E92643A91F00576AA6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3BB2643A91F00576AA6 /* Parser.swift */; };
-		38A9C3FA2643B00300576AA6 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 38A9C3F92643B00300576AA6 /* SwiftCSV */; };
+		38A9C3FA2643B00300576AA6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */; };
 		38A9C3FD2643DB8F00576AA6 /* LightAndBattery+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3FB2643DB8F00576AA6 /* LightAndBattery+CoreDataClass.swift */; };
 		38A9C3FE2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3FC2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift */; };
 		38D927182679E45B005CD555 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D927172679E45B005CD555 /* DataManager.swift */; };
-		6F2CD16580FF2C0A383DA0EC /* Pods_CD_RECYCLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6F5598DDA3BC5BF20E6039 /* Pods_CD_RECYCLETests.framework */; };
-		7149BF4ADF1A7BE1F002243D /* Pods_CD_RECYCLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F3CF017DF3179868658621 /* Pods_CD_RECYCLE.framework */; };
+		73B4197268F00367C7923CDA /* Pods_CD_RECYCLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03B20FBBEDA634A5DB2E2AD /* Pods_CD_RECYCLE.framework */; };
 		84849A512670A040000CA8BA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84849A502670A040000CA8BA /* CameraViewController.swift */; };
 		84849A532670AF57000CA8BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84849A522670AF57000CA8BA /* MapViewController.swift */; };
-		9F47F15FEEC14227733916B7 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168C065F09138F460FC60B00 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */; };
+		84A2D366267DADC20020BB8C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84A2D365267DADC20020BB8C /* Podfile */; };
+		84A2D36A267DADE20020BB8C /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 84A2D369267DADE20020BB8C /* Podfile.lock */; };
+		9EF66335259129006D9736C6 /* Pods_CD_RECYCLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EEFC9708D55D8ACC86C56 /* Pods_CD_RECYCLETests.framework */; };
+		C4F98B18705AF5083C76B48F /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7201F685B77A7F0C61A13D2 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */; };
 		D4CC5596267C9FAA00ECD7CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC5594267C9FAA00ECD7CD /* Extensions.swift */; };
 		D4CC5597267C9FAA00ECD7CD /* PredictionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC5595267C9FAA00ECD7CD /* PredictionResultViewController.swift */; };
 		D4CC5599267C9FC300ECD7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CC5598267C9FC300ECD7CD /* Main.storyboard */; };
@@ -67,11 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018AD1553E7EBC7CE77E0C60 /* Pods-CD_RECYCLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLETests.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLETests/Pods-CD_RECYCLETests.release.xcconfig"; sourceTree = "<group>"; };
-		08722F3722BB7D074E5E97F4 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig"; sourceTree = "<group>"; };
-		168C065F09138F460FC60B00 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLE_CD_RECYCLEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1965A81E49015DBB31CC2750 /* Pods-CD_RECYCLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLETests.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLETests/Pods-CD_RECYCLETests.debug.xcconfig"; sourceTree = "<group>"; };
-		2913FF0D49B41691700FFAD2 /* Pods-CD_RECYCLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE.debug.xcconfig"; sourceTree = "<group>"; };
+		160EEFC9708D55D8ACC86C56 /* Pods_CD_RECYCLETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		381955EA2642FC99001A9F2A /* CD_RECYCLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CD_RECYCLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381955ED2642FC99001A9F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		381955EF2642FC99001A9F2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,18 +111,24 @@
 		38A9C3FB2643DB8F00576AA6 /* LightAndBattery+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LightAndBattery+CoreDataClass.swift"; sourceTree = "<group>"; };
 		38A9C3FC2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LightAndBattery+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		38D927172679E45B005CD555 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		48699A478F7CD4DDC2D28475 /* Pods-CD_RECYCLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE.debug.xcconfig"; sourceTree = "<group>"; };
+		5267DFE1C5202AE924E061CE /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8356860943F971AD80323E2C /* Pods-CD_RECYCLETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLETests.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLETests/Pods-CD_RECYCLETests.debug.xcconfig"; sourceTree = "<group>"; };
 		84849A502670A040000CA8BA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		84849A522670AF57000CA8BA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		84849A542670D7C5000CA8BA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9AC8B6D0F5994C381318530C /* Pods-CD_RECYCLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE.release.xcconfig"; sourceTree = "<group>"; };
-		9FF0D2DCC1B733456348E690 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1F3CF017DF3179868658621 /* Pods_CD_RECYCLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A2D365267DADC20020BB8C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		84A2D369267DADE20020BB8C /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		BCFA3D53A6150E87D1BD10C1 /* Pods-CD_RECYCLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLETests.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLETests/Pods-CD_RECYCLETests.release.xcconfig"; sourceTree = "<group>"; };
 		D4CC5594267C9FAA00ECD7CD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D4CC5595267C9FAA00ECD7CD /* PredictionResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionResultViewController.swift; sourceTree = "<group>"; };
 		D4CC5598267C9FC300ECD7CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D4CC559A267CA18800ECD7CD /* TrashClassificationModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TrashClassificationModel.mlmodel; sourceTree = SOURCE_ROOT; };
 		D4CC559C267CA1BD00ECD7CD /* 도봉구가로쓰레기통.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "도봉구가로쓰레기통.csv"; sourceTree = "<group>"; };
-		FE6F5598DDA3BC5BF20E6039 /* Pods_CD_RECYCLETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7201F685B77A7F0C61A13D2 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLE_CD_RECYCLEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B64B8823EAFB7C5D67A933 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F03B20FBBEDA634A5DB2E2AD /* Pods_CD_RECYCLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CD_RECYCLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA042A645ADCE534E82D8BBB /* Pods-CD_RECYCLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLE.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A9C3FA2643B00300576AA6 /* SwiftCSV in Frameworks */,
-				7149BF4ADF1A7BE1F002243D /* Pods_CD_RECYCLE.framework in Frameworks */,
+				38A9C3FA2643B00300576AA6 /* BuildFile in Frameworks */,
+				73B4197268F00367C7923CDA /* Pods_CD_RECYCLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2CD16580FF2C0A383DA0EC /* Pods_CD_RECYCLETests.framework in Frameworks */,
+				9EF66335259129006D9736C6 /* Pods_CD_RECYCLETests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,13 +153,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F47F15FEEC14227733916B7 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework in Frameworks */,
+				C4F98B18705AF5083C76B48F /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170871F50A6C4BCE5A8EA945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48699A478F7CD4DDC2D28475 /* Pods-CD_RECYCLE.debug.xcconfig */,
+				FA042A645ADCE534E82D8BBB /* Pods-CD_RECYCLE.release.xcconfig */,
+				E5B64B8823EAFB7C5D67A933 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */,
+				5267DFE1C5202AE924E061CE /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */,
+				8356860943F971AD80323E2C /* Pods-CD_RECYCLETests.debug.xcconfig */,
+				BCFA3D53A6150E87D1BD10C1 /* Pods-CD_RECYCLETests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		381955E12642FC99001A9F2A = {
 			isa = PBXGroup;
 			children = (
@@ -169,10 +187,12 @@
 				38A9C3FC2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift */,
 				381956202642FEB0001A9F2A /* Recycle+CoreDataClass.swift */,
 				381956212642FEB0001A9F2A /* Recycle+CoreDataProperties.swift */,
+				84A2D365267DADC20020BB8C /* Podfile */,
+				84A2D369267DADE20020BB8C /* Podfile.lock */,
 				381955EC2642FC99001A9F2A /* CD_RECYCLE */,
 				381955EB2642FC99001A9F2A /* Products */,
 				38A9C3EF2643AF6D00576AA6 /* Frameworks */,
-				3C564165A3002154CB9DABF7 /* Pods */,
+				170871F50A6C4BCE5A8EA945 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,9 +262,9 @@
 			isa = PBXGroup;
 			children = (
 				38A9C3F02643AF6D00576AA6 /* SwiftCSV */,
-				C1F3CF017DF3179868658621 /* Pods_CD_RECYCLE.framework */,
-				168C065F09138F460FC60B00 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */,
-				FE6F5598DDA3BC5BF20E6039 /* Pods_CD_RECYCLETests.framework */,
+				F03B20FBBEDA634A5DB2E2AD /* Pods_CD_RECYCLE.framework */,
+				D7201F685B77A7F0C61A13D2 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */,
+				160EEFC9708D55D8ACC86C56 /* Pods_CD_RECYCLETests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,19 +283,6 @@
 			path = SwiftCSV;
 			sourceTree = "<group>";
 		};
-		3C564165A3002154CB9DABF7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2913FF0D49B41691700FFAD2 /* Pods-CD_RECYCLE.debug.xcconfig */,
-				9AC8B6D0F5994C381318530C /* Pods-CD_RECYCLE.release.xcconfig */,
-				9FF0D2DCC1B733456348E690 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */,
-				08722F3722BB7D074E5E97F4 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */,
-				1965A81E49015DBB31CC2750 /* Pods-CD_RECYCLETests.debug.xcconfig */,
-				018AD1553E7EBC7CE77E0C60 /* Pods-CD_RECYCLETests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,11 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 381956172642FC9B001A9F2A /* Build configuration list for PBXNativeTarget "CD_RECYCLE" */;
 			buildPhases = (
-				176D8626F0B15145BB8817E8 /* [CP] Check Pods Manifest.lock */,
+				6CA895644F28CDA1B2550ECC /* [CP] Check Pods Manifest.lock */,
 				381955E62642FC99001A9F2A /* Sources */,
 				381955E72642FC99001A9F2A /* Frameworks */,
 				381955E82642FC99001A9F2A /* Resources */,
-				2B3A359D934CE39536235E76 /* [CP] Embed Pods Frameworks */,
+				B2AA5199CE13176ADC3D3B99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +302,7 @@
 			);
 			name = CD_RECYCLE;
 			packageProductDependencies = (
-				38A9C3F92643B00300576AA6 /* SwiftCSV */,
+				38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */,
 			);
 			productName = CD_RECYCLE;
 			productReference = 381955EA2642FC99001A9F2A /* CD_RECYCLE.app */;
@@ -305,7 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3819561A2642FC9B001A9F2A /* Build configuration list for PBXNativeTarget "CD_RECYCLETests" */;
 			buildPhases = (
-				1BA717B551A8086F68BBDD6A /* [CP] Check Pods Manifest.lock */,
+				4729B511EA7726627E43AFBF /* [CP] Check Pods Manifest.lock */,
 				381955FF2642FC9B001A9F2A /* Sources */,
 				381956002642FC9B001A9F2A /* Frameworks */,
 				381956012642FC9B001A9F2A /* Resources */,
@@ -324,11 +331,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3819561D2642FC9B001A9F2A /* Build configuration list for PBXNativeTarget "CD_RECYCLEUITests" */;
 			buildPhases = (
-				F543DAE465A73DEF139741CA /* [CP] Check Pods Manifest.lock */,
+				0D758E414CE59E0C57328AA4 /* [CP] Check Pods Manifest.lock */,
 				3819560A2642FC9B001A9F2A /* Sources */,
 				3819560B2642FC9B001A9F2A /* Frameworks */,
 				3819560C2642FC9B001A9F2A /* Resources */,
-				5370CA14FE7E3C9C7E0A196F /* [CP] Embed Pods Frameworks */,
+				1624B9495E5767C18DFA0018 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -373,7 +380,7 @@
 			);
 			mainGroup = 381955E12642FC99001A9F2A;
 			packageReferences = (
-				38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+				38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 381955EB2642FC99001A9F2A /* Products */;
 			projectDirPath = "";
@@ -393,6 +400,8 @@
 			files = (
 				D4CC559D267CA1BD00ECD7CD /* 도봉구가로쓰레기통.csv in Resources */,
 				D4CC5599267C9FC300ECD7CD /* Main.storyboard in Resources */,
+				84A2D36A267DADE20020BB8C /* Podfile.lock in Resources */,
+				84A2D366267DADC20020BB8C /* Podfile in Resources */,
 				381955FD2642FC9A001A9F2A /* LaunchScreen.storyboard in Resources */,
 				381956282643058D001A9F2A /* 시트 1-표 2.csv in Resources */,
 				381956272643058D001A9F2A /* _서울특별시 14개 구 폐형광등폐건전지 분리수거함 위치.csv in Resources */,
@@ -418,7 +427,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		176D8626F0B15145BB8817E8 /* [CP] Check Pods Manifest.lock */ = {
+		0D758E414CE59E0C57328AA4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,14 +442,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CD_RECYCLE-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CD_RECYCLE-CD_RECYCLEUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1BA717B551A8086F68BBDD6A /* [CP] Check Pods Manifest.lock */ = {
+		1624B9495E5767C18DFA0018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4729B511EA7726627E43AFBF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,41 +488,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2B3A359D934CE39536235E76 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5370CA14FE7E3C9C7E0A196F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE-CD_RECYCLEUITests/Pods-CD_RECYCLE-CD_RECYCLEUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F543DAE465A73DEF139741CA /* [CP] Check Pods Manifest.lock */ = {
+		6CA895644F28CDA1B2550ECC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -511,11 +503,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CD_RECYCLE-CD_RECYCLEUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CD_RECYCLE-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AA5199CE13176ADC3D3B99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CD_RECYCLE/Pods-CD_RECYCLE-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -716,7 +725,7 @@
 		};
 		381956182642FC9B001A9F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2913FF0D49B41691700FFAD2 /* Pods-CD_RECYCLE.debug.xcconfig */;
+			baseConfigurationReference = 48699A478F7CD4DDC2D28475 /* Pods-CD_RECYCLE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -738,7 +747,7 @@
 		};
 		381956192642FC9B001A9F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC8B6D0F5994C381318530C /* Pods-CD_RECYCLE.release.xcconfig */;
+			baseConfigurationReference = FA042A645ADCE534E82D8BBB /* Pods-CD_RECYCLE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -759,7 +768,7 @@
 		};
 		3819561B2642FC9B001A9F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1965A81E49015DBB31CC2750 /* Pods-CD_RECYCLETests.debug.xcconfig */;
+			baseConfigurationReference = 8356860943F971AD80323E2C /* Pods-CD_RECYCLETests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -782,7 +791,7 @@
 		};
 		3819561C2642FC9B001A9F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 018AD1553E7EBC7CE77E0C60 /* Pods-CD_RECYCLETests.release.xcconfig */;
+			baseConfigurationReference = BCFA3D53A6150E87D1BD10C1 /* Pods-CD_RECYCLETests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -805,7 +814,7 @@
 		};
 		3819561E2642FC9B001A9F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF0D2DCC1B733456348E690 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */;
+			baseConfigurationReference = E5B64B8823EAFB7C5D67A933 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -826,7 +835,7 @@
 		};
 		3819561F2642FC9B001A9F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08722F3722BB7D074E5E97F4 /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */;
+			baseConfigurationReference = 5267DFE1C5202AE924E061CE /* Pods-CD_RECYCLE-CD_RECYCLEUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -887,7 +896,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+		38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
 			requirement = {
@@ -898,9 +907,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		38A9C3F92643B00300576AA6 /* SwiftCSV */ = {
+		38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			package = 38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */;
 			productName = SwiftCSV;
 		};
 /* End XCSwiftPackageProductDependency section */
