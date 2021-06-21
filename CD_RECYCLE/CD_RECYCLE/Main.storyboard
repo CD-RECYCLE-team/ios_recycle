@@ -87,7 +87,9 @@
                             <constraint firstItem="m3w-pv-4Ds" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ypX-wP-4o3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="lKL-JD-DOQ"/>
+                    <navigationItem key="navigationItem" id="lKL-JD-DOQ">
+                        <nil key="title"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

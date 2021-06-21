@@ -29,7 +29,7 @@ class ViewController: UIViewController{//}, UITableViewDelegate, UITableViewData
         dataManager.dataLoad()
         
     }
-    
+
     /*
     //For CoreData View
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

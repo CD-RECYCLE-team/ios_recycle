@@ -25,7 +25,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         title = "Camera"
         imagePickerController.delegate = self
         checkPermissions()
-        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let nextVC = segue.destination as! PredictionResultViewController
