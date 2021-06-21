@@ -14,6 +14,8 @@ class MapViewController: UIViewController {
     var itemName: String?
     var segIdx: Int16?
     
+    @IBOutlet weak var navigationBar: UINavigationItem!
+    
     /*
      예시로 만든 두 개의 ViewController입니다.
      구분이 되도록 배경 색상을 다르게 했는데요.
@@ -29,6 +31,14 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "logo.jpeg")
+        imageView.image = image
+        //titleView = imageView
+        navigationBar.titleView = imageView
+        
         view.bringSubviewToFront(viewContainer)
         
         viewContainer.addSubview(firstVC.view)

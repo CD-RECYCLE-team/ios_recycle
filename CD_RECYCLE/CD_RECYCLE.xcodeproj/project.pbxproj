@@ -33,7 +33,7 @@
 		38A9C3E72643A91F00576AA6 /* NamedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3B92643A91F00576AA6 /* NamedView.swift */; };
 		38A9C3E82643A91F00576AA6 /* ParsingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3BA2643A91F00576AA6 /* ParsingState.swift */; };
 		38A9C3E92643A91F00576AA6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3BB2643A91F00576AA6 /* Parser.swift */; };
-		38A9C3FA2643B00300576AA6 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */; };
+		38A9C3FA2643B00300576AA6 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 38A9C3F92643B00300576AA6 /* SwiftCSV */; };
 		38A9C3FD2643DB8F00576AA6 /* LightAndBattery+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3FB2643DB8F00576AA6 /* LightAndBattery+CoreDataClass.swift */; };
 		38A9C3FE2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9C3FC2643DB8F00576AA6 /* LightAndBattery+CoreDataProperties.swift */; };
 		38D927182679E45B005CD555 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D927172679E45B005CD555 /* DataManager.swift */; };
@@ -42,6 +42,7 @@
 		84849A532670AF57000CA8BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84849A522670AF57000CA8BA /* MapViewController.swift */; };
 		84A2D366267DADC20020BB8C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 84A2D365267DADC20020BB8C /* Podfile */; };
 		84A2D36A267DADE20020BB8C /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 84A2D369267DADE20020BB8C /* Podfile.lock */; };
+		84BCE8FA2680437C0087A181 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84BCE8F92680437C0087A181 /* logo.jpeg */; };
 		9EF66335259129006D9736C6 /* Pods_CD_RECYCLETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160EEFC9708D55D8ACC86C56 /* Pods_CD_RECYCLETests.framework */; };
 		C4F98B18705AF5083C76B48F /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7201F685B77A7F0C61A13D2 /* Pods_CD_RECYCLE_CD_RECYCLEUITests.framework */; };
 		D4CC5596267C9FAA00ECD7CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CC5594267C9FAA00ECD7CD /* Extensions.swift */; };
@@ -119,6 +120,7 @@
 		84849A542670D7C5000CA8BA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		84A2D365267DADC20020BB8C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		84A2D369267DADE20020BB8C /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		84BCE8F92680437C0087A181 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
 		BCFA3D53A6150E87D1BD10C1 /* Pods-CD_RECYCLETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CD_RECYCLETests.release.xcconfig"; path = "Target Support Files/Pods-CD_RECYCLETests/Pods-CD_RECYCLETests.release.xcconfig"; sourceTree = "<group>"; };
 		D4CC5594267C9FAA00ECD7CD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D4CC5595267C9FAA00ECD7CD /* PredictionResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionResultViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A9C3FA2643B00300576AA6 /* BuildFile in Frameworks */,
+				38A9C3FA2643B00300576AA6 /* SwiftCSV in Frameworks */,
 				73B4197268F00367C7923CDA /* Pods_CD_RECYCLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +172,6 @@
 				8356860943F971AD80323E2C /* Pods-CD_RECYCLETests.debug.xcconfig */,
 				BCFA3D53A6150E87D1BD10C1 /* Pods-CD_RECYCLETests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,6 +224,7 @@
 				383B25992679D1A600EC2A58 /* SecondChildViewController.swift */,
 				383B259B2679D1B400EC2A58 /* ThirdChildViewController.swift */,
 				383B259D2679DDB200EC2A58 /* FourthChildViewController.swift */,
+				84BCE8F92680437C0087A181 /* logo.jpeg */,
 				381956242643058D001A9F2A /* data */,
 				381955F92642FC9A001A9F2A /* Assets.xcassets */,
 				381955FB2642FC9A001A9F2A /* LaunchScreen.storyboard */,
@@ -302,7 +304,7 @@
 			);
 			name = CD_RECYCLE;
 			packageProductDependencies = (
-				38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */,
+				38A9C3F92643B00300576AA6 /* SwiftCSV */,
 			);
 			productName = CD_RECYCLE;
 			productReference = 381955EA2642FC99001A9F2A /* CD_RECYCLE.app */;
@@ -380,7 +382,7 @@
 			);
 			mainGroup = 381955E12642FC99001A9F2A;
 			packageReferences = (
-				38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */,
+				38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
 			);
 			productRefGroup = 381955EB2642FC99001A9F2A /* Products */;
 			projectDirPath = "";
@@ -398,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BCE8FA2680437C0087A181 /* logo.jpeg in Resources */,
 				D4CC559D267CA1BD00ECD7CD /* 도봉구가로쓰레기통.csv in Resources */,
 				D4CC5599267C9FC300ECD7CD /* Main.storyboard in Resources */,
 				84A2D36A267DADE20020BB8C /* Podfile.lock in Resources */,
@@ -896,7 +899,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */ = {
+		38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
 			requirement = {
@@ -907,9 +910,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		38A9C3F92643B00300576AA6 /* SwiftPackageProductDependency */ = {
+		38A9C3F92643B00300576AA6 /* SwiftCSV */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 38A9C3F82643B00300576AA6 /* RemoteSwiftPackageReference */;
+			package = 38A9C3F82643B00300576AA6 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
 			productName = SwiftCSV;
 		};
 /* End XCSwiftPackageProductDependency section */

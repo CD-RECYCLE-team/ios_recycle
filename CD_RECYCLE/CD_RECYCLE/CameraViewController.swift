@@ -11,6 +11,7 @@ import Photos
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var navigationBar: UINavigationItem!
     
     @IBOutlet weak var photoButton: UIButton!
     @IBOutlet weak var cameraPreview: UIImageView!
@@ -22,6 +23,13 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "logo.jpeg")
+        imageView.image = image
+        //titleView = imageView
+        navigationBar.titleView = imageView
+        
         title = "Camera"
         imagePickerController.delegate = self
         checkPermissions()

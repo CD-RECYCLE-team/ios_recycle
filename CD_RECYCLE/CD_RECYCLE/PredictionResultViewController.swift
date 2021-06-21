@@ -11,6 +11,8 @@ import UIKit
 
 class PredictionResultViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var navigationBar: UINavigationItem!
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var recyclewayLabel: UILabel!
@@ -22,6 +24,14 @@ class PredictionResultViewController: UIViewController, UIImagePickerControllerD
     override func viewDidLoad() {
 
         super.viewDidLoad()
+        
+        let imageView2 = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
+        imageView2.contentMode = .scaleAspectFit
+        let image2 = UIImage(named: "logo.jpeg")
+        imageView2.image = image2
+        //titleView = imageView
+        navigationBar.titleView = imageView2
+        
         
         // 이미지 화면에 표시
         imageView.image = inputimg

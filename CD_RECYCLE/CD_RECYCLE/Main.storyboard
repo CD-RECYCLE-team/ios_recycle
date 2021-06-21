@@ -16,6 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3w-pv-4Ds">
+                                <rect key="frame" x="187.5" y="169" width="137.5" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="7rr-PN-Jzc"/>
+                                </constraints>
+                                <state key="normal" title="사물 검색"/>
+                                <connections>
+                                    <segue destination="toY-Hd-0mG" kind="show" id="PEH-qG-fBa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdX-SA-TyU">
+                                <rect key="frame" x="187.5" y="239" width="137.5" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="4fu-MH-jkN"/>
+                                </constraints>
+                                <state key="normal" title="내 주변 수거함 찾기"/>
+                                <connections>
+                                    <segue destination="oFB-an-kKR" kind="show" id="osU-TV-Uh9"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V58-mf-Ity">
                                 <rect key="frame" x="16" y="351" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -47,26 +67,6 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" scale="large" weight="light"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3w-pv-4Ds">
-                                <rect key="frame" x="187.5" y="169" width="137.5" height="62"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="7rr-PN-Jzc"/>
-                                </constraints>
-                                <state key="normal" title="사물 검색"/>
-                                <connections>
-                                    <segue destination="toY-Hd-0mG" kind="show" id="PEH-qG-fBa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdX-SA-TyU">
-                                <rect key="frame" x="187.5" y="239" width="137.5" height="62"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="4fu-MH-jkN"/>
-                                </constraints>
-                                <state key="normal" title="내 주변 수거함 찾기"/>
-                                <connections>
-                                    <segue destination="oFB-an-kKR" kind="show" id="osU-TV-Uh9"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -90,6 +90,9 @@
                     <navigationItem key="navigationItem" id="lKL-JD-DOQ">
                         <nil key="title"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="navigationBar" destination="lKL-JD-DOQ" id="htt-dB-x1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,10 +162,19 @@
                             <constraint firstAttribute="bottom" secondItem="aiE-OY-YSS" secondAttribute="bottom" constant="186" id="yud-mq-Zvb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kkD-Nf-h20"/>
+                    <navigationItem key="navigationItem" id="kkD-Nf-h20">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="S65-Nh-bDM">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="8pD-H0-lQ4">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="cameraButton" destination="LTe-aa-CPW" id="J53-ON-f3h"/>
                         <outlet property="cameraPreview" destination="mUF-6U-tlS" id="Ydr-kl-6yC"/>
+                        <outlet property="navigationBar" destination="kkD-Nf-h20" id="vfV-N7-4A5"/>
                         <outlet property="photoButton" destination="aiE-OY-YSS" id="IPQ-N1-DXl"/>
                     </connections>
                 </viewController>
@@ -211,8 +223,16 @@
                             <constraint firstItem="MZQ-Du-1XH" firstAttribute="leading" secondItem="0TG-A8-5PI" secondAttribute="leading" constant="16" id="ugS-UX-8vb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="g1W-13-YUx"/>
+                    <navigationItem key="navigationItem" id="g1W-13-YUx">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="yeV-gQ-T9M">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="WJD-bZ-m7Q">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="navigationBar" destination="g1W-13-YUx" id="CaL-kw-ucf"/>
                         <outlet property="segControl" destination="MZQ-Du-1XH" id="jop-bo-V31"/>
                         <outlet property="viewContainer" destination="llc-UA-cdq" id="fSt-rz-yIk"/>
                     </connections>
@@ -302,10 +322,18 @@
                             <constraint firstItem="b58-ko-yQ8" firstAttribute="leading" secondItem="m7T-GZ-S0D" secondAttribute="leading" constant="16" id="rzx-iw-AYP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="By5-s9-zaK"/>
+                    <navigationItem key="navigationItem" id="By5-s9-zaK">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="QfK-xx-ZkK">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="NVI-mr-PuF">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="b58-ko-yQ8" id="hYS-v0-WdY"/>
                         <outlet property="nameLabel" destination="fe8-ch-ZJp" id="Ofe-DP-XiN"/>
+                        <outlet property="navigationBar" destination="By5-s9-zaK" id="1ji-up-dtu"/>
                         <outlet property="recyclewayLabel" destination="jIF-Gi-lgv" id="yRh-uP-mdo"/>
                     </connections>
                 </viewController>
@@ -315,7 +343,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="osU-TV-Uh9"/>
+        <segue reference="woX-8q-uv9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="camera" catalog="system" width="128" height="94"/>

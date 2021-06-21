@@ -12,7 +12,7 @@ import SwiftCSV
 
 class ViewController: UIViewController{//}, UITableViewDelegate, UITableViewDataSource {
     var container: NSPersistentContainer!
-    
+
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     let dataManager = DataManager()
@@ -24,10 +24,20 @@ class ViewController: UIViewController{//}, UITableViewDelegate, UITableViewData
     }()
     */
     
+    @IBOutlet weak var navigationBar: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataManager.dataLoad()
         
+        // Do any additional setup after loading the view.
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 18, height: 18))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "logo.jpeg")
+        imageView.image = image
+        //titleView = imageView
+        navigationBar.titleView = imageView
+
+        dataManager.dataLoad()
     }
 
     /*
